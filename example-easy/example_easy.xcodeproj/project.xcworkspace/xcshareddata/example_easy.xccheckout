@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8A46FF02-301C-41D8-8CE0-17CDC901D3EA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>example_easy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B39FBF64-8229-42F4-8539-EA4BF82CE32D</key>
+		<string>https://github.com/kylemcdonald/ofxFft.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example_easy/example_easy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B39FBF64-8229-42F4-8539-EA4BF82CE32D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kylemcdonald/ofxFft.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B39FBF64-8229-42F4-8539-EA4BF82CE32D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B39FBF64-8229-42F4-8539-EA4BF82CE32D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxFft</string>
+		</dict>
+	</array>
+</dict>
+</plist>

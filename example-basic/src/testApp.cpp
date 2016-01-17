@@ -13,6 +13,8 @@ void testApp::setup() {
 	drawBins.resize(fft->getBinSize());
 	middleBins.resize(fft->getBinSize());
 	audioBins.resize(fft->getBinSize());
+    
+    ofLogNotice() << "Bin size: " << fft->getBinSize();
 	
 	// 0 output channels,
 	// 1 input channel
@@ -56,7 +58,8 @@ void testApp::plot(vector<float>& buffer, float scale, float offset) {
 }
 
 void testApp::audioReceived(float* input, int bufferSize, int nChannels) {	
-	float maxValue = 0;
+	
+    float maxValue = 0;
 	for(int i = 0; i < bufferSize; i++) {
 		if(abs(input[i]) > maxValue) {
 			maxValue = abs(input[i]);
