@@ -303,6 +303,7 @@ void ProcessFFT::drawAvgGraphUnScaled(ofPoint pt, vector<float> values, ofColor 
 
 //---------------------------------------------
 void ProcessFFT::drawBars(){
+    cout << fftSpectrum.size() << endl;
     if(normalize){
     ofPushStyle();
     ofSetRectMode(OF_RECTMODE_CORNER);

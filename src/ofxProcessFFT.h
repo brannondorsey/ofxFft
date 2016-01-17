@@ -90,3 +90,5 @@ private:
     void drawAvgGraphUnScaled(ofPoint pt, vector<float> values, ofColor _color);
     
 };
+
+typedef ProcessFFT ofxProcessFFT;
